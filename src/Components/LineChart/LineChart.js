@@ -61,13 +61,13 @@ const LineCharts = () => {
       <ResponsiveContainer width="100%" aspect={3}>
         <LineChart data={data}>
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="month" interval={"preserveStartEnd"} />
+          <XAxis dataKey="month" interval={"preserveStartEnd"}  tickFormatter ={(value)=>value +' Month'}/>
           <YAxis />
-          <Tooltip/>
+          <Tooltip contentStyle={{background:'cyan'}}/>
           <Legend />
-          <Line dataKey="revenue" stroke="red" activeDot={{r:8}}/>
-          <Line dataKey="id" stroke="green"  activeDot={{r:8}}/>
-          <Line dataKey="investment" stroke="blue"  activeDot={{r:8}}/>
+          <Line type='monotone' dataKey="revenue" stroke="red" activeDot={{r:8}}/>
+          <Line type='monotone' dataKey="id" stroke="green"  activeDot={{r:8}}/>
+          <Line type='monotone' dataKey="investment" stroke="blue"  activeDot={{r:8}}/>
         </LineChart>
       </ResponsiveContainer>
     </>

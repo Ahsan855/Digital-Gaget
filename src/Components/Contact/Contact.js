@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="border p-44 bg-blue-400 w-full ">
+    <div className="border p-60 bg-blue-400 w-full ">
       <div className="flex flex-col md:flex-row justify-between items-center">
         <div className="text-white text-2xl">
           <h1>Street: 17/4 Shibganj Bogura</h1>

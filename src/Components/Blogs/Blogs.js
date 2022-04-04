@@ -29,7 +29,7 @@ const Blogs = () => {
           this ssection meanigful and gorgious tag. IT makes a very HelpFull for
           HTML5 .becuse this is a meanigful Semantic HTML tags provide
           information about the contents of those tags that goes beyond just how
-          they look on a page. Text that is enclosed in the <header> </header>{" "}
+          they look on a page. Text that is enclosed in the <header> </header>
           tag is immediately recognized by the browser as some type of coding
           language.
         </p>

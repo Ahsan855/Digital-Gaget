@@ -1,7 +1,7 @@
 ## Project Name : DIgital Geaget
 
 Live Link:(https://digital-geaget.netlify.app/blogs) \
-github Code Link:(https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan855)\
+github Code Link:(https://github.com/programming-hero-web-course-4/product-analysis-website-Ahsan855)
 
 # Summary Digital Geaget Project
 

@@ -8,8 +8,7 @@ import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Home from "./Components/Home/Home";
 import NotFound404 from "./Components/NotFound/NotFound404";
-import Reviwe from "./Components/Reviwe/Reviwe";
-
+import Reviwes from "./Components/Reviwe/Reviwes";
 function App() {
   return (
     <div className="App">
@@ -17,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
-        <Route path="/reviwe" element={<Reviwe />}></Route>
+        <Route path="/reviwes" element={<Reviwes />}></Route>
         <Route path="/dashbord" element={<DashBord />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
         <Route path="/blogs" element={<Blogs />}></Route>

@@ -14,7 +14,7 @@ const Header = () => {
       <div className="text-2xl flex gap-4 justify-center cursor-pointer">
         <CustomLink to="/">Home</CustomLink>
         <CustomLink to="/about">About</CustomLink>
-        <CustomLink to="/reviwe">Reviwe</CustomLink>
+        <CustomLink to="/reviwes">Reviwes</CustomLink>
         <CustomLink to="/dashbord">DashBord</CustomLink>
         <CustomLink to="/contact">Contact</CustomLink>
         <CustomLink to="/blogs">Blogs</CustomLink>

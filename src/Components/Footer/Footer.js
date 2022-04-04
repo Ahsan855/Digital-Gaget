@@ -82,7 +82,7 @@ const Footer = () => {
           </a>
         </div>
         <div className="text-center text-black-600 font-bold pt-10 sm:pt-12  flex items-center justify-center">
-          All Rights Reserved By &copy; Digital Gaget | 2022-2026
+          All Rights Reserved By &copy; Digital Gaget | 2022-2023
         </div>
       </div>
     </footer>

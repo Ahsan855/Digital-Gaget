@@ -35,7 +35,9 @@ const Home = () => {
       </div>
       <div className="p-8 mt-4">
         <hr />
-        <h1 className="text-4xl p-4 text-purple-500">Customers Reviwes</h1>
+        <h1 className="text-4xl p-4 text-purple-500">
+          Customers Reviwes : {reviwe.slice(0, 3).length}
+        </h1>
         <hr />
       </div>
       <div className="p-5">

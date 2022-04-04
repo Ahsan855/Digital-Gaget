@@ -5,7 +5,7 @@ import ReaderChart from "../RedarChart/RedarChart";
 
 const DashBord = () => {
   return (
-    <div className="grid grid-rows-2 gap-4 m-4 grid-cols-2 border-2 rounded-lg">
+    <div className="grid md:grid-rows-2 gap-4 m-4 sm:grid-cols-1 md:grid-cols-2 border-2 rounded-lg">
       <div className="w-full mx-auto m-4 p-2">
         <LineCharts></LineCharts>
       </div>

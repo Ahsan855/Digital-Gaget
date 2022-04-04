@@ -1,5 +1,4 @@
 import React from "react";
-import useReviwes from "../Reviwes/useReviwes";
 
 const Reviwess = ({ reviwePd }) => {
   return (

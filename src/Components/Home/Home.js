@@ -8,7 +8,7 @@ const Home = () => {
   const [reviwe] = useReviwes();
   return (
     <div>
-      <div className="md:px-16 py-8 grid grid-cols-2 grid-rows-1 gap-3">
+      <div className="md:px-16 py-8 grid md:grid-cols-2 sm:grid-cols-1 grid-rows-1 gap-3">
         <div className="flex flex-col justify-center h-[80vh] items-center">
           <h1 className=" font-mono text-xl md:text-5xl ">
             Welcome to My{" "}
@@ -33,8 +33,13 @@ const Home = () => {
           />
         </div>
       </div>
-      <div>
-        <div className="grid grid-cols-3 grid-rows-1 justify-center items-center">
+      <div className="p-8 mt-4">
+        <hr />
+        <h1 className="text-4xl p-4 text-purple-500">Customers Reviwes</h1>
+        <hr />
+      </div>
+      <div className="p-5">
+        <div className="grid md:grid-cols-2 xl:grid-cols-3 sm:grid-cols-1 grid-rows-1">
           {reviwe.slice(0, 3).map((reviwePd) => (
             <Reviwess reviwePd={reviwePd} key={reviwePd.id}></Reviwess>
           ))}

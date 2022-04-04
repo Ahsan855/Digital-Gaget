@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-screen-xl mx-auto px-4">
         <div className=" flex max-w-xs mx-auto items-center justify-between">
           <a
-            href="www.facebook.com"
+            href="https://www.facebook.com/profile.php?id=100008800055640"
             className="text-gray-700 hover:text-gray-800 transition-colors duration-200"
           >
             <svg
